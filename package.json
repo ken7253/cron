@@ -3,7 +3,11 @@
 	"version": "1.0.0",
 	"description": "",
 	"license": "MIT",
-	"scripts": {},
+	"scripts": {
+		"test": "ts-node --esm scripts/index.ts",
+		"lint": "eslint .",
+		"fmt": "prettier . -w"
+	},
 	"devDependencies": {
 		"@types/node": "^18.7.18",
 		"@typescript-eslint/eslint-plugin": "^5.37.0",
